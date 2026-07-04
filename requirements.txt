@@ -1,0 +1,7 @@
+ftfy
+packaging
+regex
+tqdm
+torchvision
+jax[cuda13]
+flax
