@@ -1,0 +1,18 @@
+[project]
+name = "dinov3-jax-nnx"
+version = "0.1.0a"
+description = "DINOv3 JAX implementation with Flax NNX"
+authors = [
+    { name = "Williams Edi", email = "williams.edi@gmail.com" }
+]
+readme = "README.md"
+
+[build-system]
+requires = [
+    "setuptools>=42", 
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "dinov3"}
