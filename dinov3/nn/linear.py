@@ -48,6 +48,14 @@ class Linear(nnx.Module):
             x = x + self.bias.value
 
 
+class LinearKMaskedBias(nnx.Module):
+    def __init__(self):
+        super().__init__()
+
+    def __call__(self, *args, **kwargs):
+        return super().__call__(*args, **kwargs)
+
+
 class MLP(nnx.Module):
     def __init__(
             self,
